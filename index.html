@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="wrapper">
+        <form id="laptop">
+            <h1>Ноутбуки</h1>
+            <div>
+                <label for="title">Название</label>
+                <input type="text" id="title">
+            </div>
+            <div>
+                <label for="year">Год выпуска</label>
+                <input type="text" id="year">
+            </div>
+            <div>
+                <label for="cpu">Процессор</label>
+                <input type="text" id="cpu">
+            </div>
+            <div>
+                <label for="ram">Рзамер оперативной памяти</label>
+                <input type="text" id="ram">
+            </div>
+            <div>
+                <label for="cores">Количество ядер</label>
+                <input type="text" id="cores">
+            </div>
+            <div>
+                <label for="material">Материал корпуса</label>
+                <input type="text" id="material">
+            </div>
+            <div>
+                <label for="weight">Вес</label>
+                <input type="text" id="weight">
+            </div>
+            <div>
+                <input type="submit" value="Добавить">
+            </div>
+        </form>
+        <form id="ultrabook">
+            <h1>Ультрабуки</h1>
+            <div>
+                <label for="title-ultra">Название</label>
+                <input type="text" id="title-ultra">
+            </div>
+            <div>
+                <label for="year-ultra">Год выпуска</label>
+                <input type="text" id="year-ultra">
+            </div>
+            <div>
+                <label for="cpu-ultra">Процессор</label>
+                <input type="text" id="cpu-ultra">
+            </div>
+            <div>
+                <label for="ram-ultra">Рзамер оперативной памяти</label>
+                <input type="text" id="ram-ultra">
+            </div>
+            <div>
+                <label for="cores-ultra">Количество ядер</label>
+                <input type="text" id="cores-ultra">
+            </div>
+            <div>
+                <label for="color-ultra">Цвет корпуса</label>
+                <input type="text" id="color-ultra">
+            </div>
+            <div>
+                <label for="weight-ultra">Вес</label>
+                <input type="text" id="weight-ultra">
+            </div>
+            <div>
+                <input type="submit" value="Добавить">
+            </div>
+        </form>
+    </div>
+    </div>
+        <div id="list-laptops"></div>
+    </div>
+
+    <script src="./js/laptop.js"></script>
+    <script src="./js/viewlaptop.js"></script>
+    <script src="./js/viewUltrabook.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

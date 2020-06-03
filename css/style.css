@@ -1,0 +1,38 @@
+.head-title, ul{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    list-style: none;
+}
+
+.success{
+    background-color: green;
+}
+
+.no-success{
+    background-color: red;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-block{
+    opacity: 0;
+    background-color: aqua;
+    display: flex;
+    position: absolute;
+    left: 30%;
+    width: 300px;
+    z-index: 2;
+    flex-wrap: wrap;
+}
+
+.info-block p{
+    flex-basis: 90%;
+}
+
+.show{
+    opacity: 1;
+}
