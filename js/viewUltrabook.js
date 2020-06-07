@@ -36,7 +36,7 @@ ViewUltraBook.prototype.getMessage = function(message, nameCl){
     infoBlock.innerText = message;
 
     cont.insertBefore(infoBlock, form);
-    
+
 };
 
 ViewUltraBook.prototype.clearInput = function(){

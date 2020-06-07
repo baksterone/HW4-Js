@@ -34,6 +34,7 @@ document.querySelector('#ultrabook').addEventListener('submit', function(event){
     var color = document.querySelector('#color-ultra').value;
     var weight = document.querySelector('#weight-ultra').value;
 
+    UltraBook.prototype = Object.create(Laptop.prototype);
     var ultraBook = new UltraBook(title, year, cpu, ram, cores, color, weight);
     var viewUltraBook = new ViewUltraBook();
 

@@ -15,17 +15,13 @@ function Laptop(title, year, cpu, ram, cores, material, weight){
 }
 
 function UltraBook(title, year, cpu, ram, cores, color, weight){
-    this.title = title;
-    this.year = year;
-    this.cpu = cpu;
-    this.ram = ram;
-    this.cores = cores;
+    Laptop.call(this, title, year, cpu, ram, cores, weight);
     this.color = color;
-    this.weight = weight;
 
     this.getOption = function(){
-        return "Вес: " + this.weight + '\n' 
-        + "Цвет: " + this.color + '\n' 
-        + "Год: " + this.year;
+        return "Вес: " + weight + '\n' 
+        + "Цвет: " + color + '\n' 
+        + "Год: " + year;
     }
 }
+
